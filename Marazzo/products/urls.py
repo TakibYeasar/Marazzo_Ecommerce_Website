@@ -1,0 +1,63 @@
+from django.urls import path
+from .views import *
+
+urlpatterns = [
+    path('categories/', GetCategoryView.as_view(), name='get_categories'),
+    path('categories/create/', CreateCategoryView.as_view(), name='create_category'),
+    path('categories/update/<int:id>/',
+         UpdateCategoryView.as_view(), name='update_category'),
+    path('categories/delete/<int:id>/',
+         DeleteCategoryView.as_view(), name='delete_category'),
+
+    path('products/', GetProductView.as_view(), name='get_products'),
+    path('products/create/', CreateProductView.as_view(), name='create_product'),
+    path('products/update/<int:id>/',
+         UpdateProductView.as_view(), name='update_product'),
+    path('products/delete/<int:id>/',
+         DeleteProductView.as_view(), name='delete_product'),
+    
+    path('products/<int:product_id>/reviews/',
+         GetProductReviewView.as_view(), name='get_product_reviews'),
+    path('products/<int:product_id>/reviews/create/',
+         CreateProductReviewView.as_view(), name='create_product_review'),
+    path('products/reviews/update/<int:review_product_id>/',
+         UpdateProductReviewView.as_view(), name='update_product_review'),
+    path('products/reviews/delete/<int:review_product_id>/',
+         DeleteProductReviewView.as_view(), name='delete_review'),
+    
+    path('hotdeals/', GetHotdealsView.as_view(),
+         name='get_hotdeals_products'),
+    path('hotdeals/create/', CreateHotdealsView.as_view(),
+         name='create_hotdeals_product'),
+    path('hotdeals/update/<int:pk>/', UpdateHotdealsView.as_view(),
+         name='update_hotdeals_product'),
+    path('hotdeals/delete/<int:pk>/', DeleteHotdealsView.as_view(),
+         name='delete_hotdeals_product'),
+    
+    path('featured/', GetFeaturedprodView.as_view(),
+         name='get_featured_products'),
+    path('featured/create/', CreateFeaturedprodView.as_view(),
+         name='create_featured_product'),
+    path('featured/update/<int:pk>/', UpdateFeaturedprodView.as_view(),
+         name='update_featured_product'),
+    path('featured/delete/<int:pk>/', DeleteFeaturedprodView.as_view(),
+         name='delete_featured_product'),
+    
+    path('special_offer/', GetSpecialofferView.as_view(),
+         name='get_special_offer_products'),
+    path('special_offer/create/', CreateSpecialofferView.as_view(),
+         name='create_special_offer_product'),
+    path('special_offer/update/<int:pk>/', UpdateSpecialofferView.as_view(),
+         name='update_special_offer_product'),
+    path('special_offer/delete/<int:pk>/', DeleteSpecialofferView.as_view(),
+         name='delete_special_offer_product'),
+    
+    path('special_deals/', GetSpecialdealsView.as_view(),
+         name='get_special_deals_products'),
+    path('special_deals/create/', CreateSpecialdealsView.as_view(),
+         name='create_special_deals_product'),
+    path('special_deals/update/<int:pk>/', UpdateSpecialdealsView.as_view(),
+         name='update_special_deals_product'),
+    path('special_deals/delete/<int:pk>/', DeleteSpecialdealsView.as_view(),
+         name='delete_special_deals_product'),
+]
