@@ -18,8 +18,7 @@ import cta_banner1 from "../../../assets/banners/cat-banner-1.jpg";
 import member1 from "../../../assets/testimonials/member1.png";
 import member2 from "../../../assets/testimonials/member2.png";
 import member3 from "../../../assets/testimonials/member3.png";
-import { Categories, Newslatter, Producttags, Testimonials } from '@/containers';
-import Singleprod from '@/containers/Singleprod';
+import { Categories, Newslatter, Producttags, Testimonials, Singleprod } from '@/components/containers';
 
 
 

@@ -27,9 +27,8 @@ import member1 from "../../../assets/testimonials/member1.png";
 import member2 from "../../../assets/testimonials/member2.png";
 import member3 from "../../../assets/testimonials/member3.png";
 import { FaCalendar, FaEnvelope, FaHeart, FaMinus, FaPlus, FaShoppingCart, FaSignal } from "react-icons/fa";
-import { Hotdeals, Newslatter, Testimonials } from '@/containers';
+import { Hotdeals, Newslatter, Testimonials, Singleprod } from '@/components/containers';
 import blank from "../../../assets/blank.gif";
-import Singleprod from '@/containers/Singleprod';
 
 const slide1 = [
     {

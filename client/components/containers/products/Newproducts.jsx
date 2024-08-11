@@ -13,7 +13,8 @@ import p08_hover from "../../assets/products/p8_hover.jpg";
 import p07 from "../../assets/products/p7.jpg";
 import p07_hover from "../../assets/products/p7_hover.jpg";
 import { FaHeart, FaShoppingCart, FaSignInAlt } from "react-icons/fa";
-import Singleprod from './Singleprod';
+import Singleprod from '../index';
+
 
 const data = [
   {

@@ -1,4 +1,5 @@
 import { Navbar, Sidebar, Footer } from '@/containers/dashboard/';
+import './globals.css';
 
 const Layout = ({ children }) => {
   return (
