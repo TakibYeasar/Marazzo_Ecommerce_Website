@@ -1,6 +1,6 @@
 import React from 'react';
-import s1 from "../../assets/sliders/01.jpg";
-import s2 from "../../assets/sliders/02.jpg";
+import s1 from "../../../assets/sliders/01.jpg";
+import s2 from "../../../assets/sliders/02.jpg";
 import Image from 'next/image';
 
 const data = [

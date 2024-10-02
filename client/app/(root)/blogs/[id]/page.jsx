@@ -1,13 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
-import member1 from "../../assets/testimonials/member1.png";
-import member2 from "../../assets/testimonials/member2.png";
-import member3 from "../../assets/testimonials/member3.png";
-import member4 from "../../assets/testimonials/member4.png";
-import blog_big01 from "../../assets//blog_big_01.jpg";
-import blog_big02 from "../../assets//blog_big_02.jpg";
-import blog_big03 from "../../assets//blog_big_03.jpg";
-import lhs_banner from "../../assets/banners/LHS-banner.jpg";
+import member1 from "../../../../../assets/testimonials/member1.png";
+import member2 from "../../../../../assets/testimonials/member2.png";
+import member3 from "../../../../../assets/testimonials/member3.png";
+import member4 from "../../../../../assets/testimonials/member4.png";
+import blog_big01 from "../../../../../assets//blog_big_01.jpg";
+import blog_big02 from "../../../../../assets//blog_big_02.jpg";
+import blog_big03 from "../../../../../assets//blog_big_03.jpg";
+import lhs_banner from "../../../../../assets/banners/LHS-banner.jpg";
 import { FaFacebook, FaLinkedin, FaPinterest, FaRss, FaTwitter } from "react-icons/fa";
 
 const Blogdetails = () => {

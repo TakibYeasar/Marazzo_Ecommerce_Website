@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { FaShoppingBag, FaLaptop, FaAlignJustify, FaPaw, FaClock, FaHeartbeat, FaPaperPlane, FaFutbol, FaEnvira } from "react-icons/fa";
-import banner_side from "../../assets/banners/banner-side.png";
+import banner_side from "../../../../assets/banners/banner-side.png";
 
 const Categories = () => {
   return (

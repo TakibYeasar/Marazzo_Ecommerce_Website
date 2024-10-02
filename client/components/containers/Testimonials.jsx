@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import member1 from "../../assets/testimonials/member1.png";
-import member2 from "../../assets/testimonials/member2.png";
-import member3 from "../../assets/testimonials/member3.png";
+import member1 from "../../../assets/testimonials/member1.png";
+import member2 from "../../../assets/testimonials/member2.png";
+import member3 from "../../../assets/testimonials/member3.png";
 
 const Testimonials = () => {
   return (

@@ -1,4 +1,4 @@
-import { Banner, Blogs, Cards, Categories, Electroniccards, Electronics, Featuredproduct, Hotdeals, Newproducts, Newslatter, Producttags, Specialdeals, Specialoffer, Testimonials } from '../components/containers'
+import { Banner, Blogs, Cards, Categories, Electroniccards, Electronics, Featuredproduct, Hotdeals, Newproducts, Newslatter, Producttags, Specialdeals, Specialoffer, Testimonials } from '../components/containers';
 import Image from 'next/image'
 
 export default function Home() {

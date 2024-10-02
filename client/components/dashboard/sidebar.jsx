@@ -1,5 +1,5 @@
 import Image from "next/image";
-import MenuLink from "./menuLink/menuLink";
+import menuLink from "./menuLink";
 import {
   MdDashboard,
   MdSupervisedUserCircle,
@@ -100,7 +100,7 @@ const Sidebar = async () => {
           <li key={cat.title}>
             <span className="text-gray-400 font-bold text-sm mb-2 block">{cat.title}</span>
             {cat.list.map((item) => (
-              <MenuLink item={item} key={item.title} />
+              <menuLink item={item} key={item.title} />
             ))}
           </li>
         ))}

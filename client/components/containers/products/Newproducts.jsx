@@ -1,19 +1,19 @@
 import React from 'react';
 import Image from 'next/image';
-import p13 from "../../assets/products/p13.jpg";
-import p13_hover from "../../assets/products/p13_hover.jpg";
-import p15 from "../../assets/products/p15.jpg";
-import p15_hover from "../../assets/products/p15_hover.jpg";
-import p10 from "../../assets/products/p10.jpg";
-import p10_hover from "../../assets/products/p10_hover.jpg";
-import p11 from "../../assets/products/p11.jpg";
-import p11_hover from "../../assets/products/p11_hover.jpg";
-import p08 from "../../assets/products/p8.jpg";
-import p08_hover from "../../assets/products/p8_hover.jpg";
-import p07 from "../../assets/products/p7.jpg";
-import p07_hover from "../../assets/products/p7_hover.jpg";
+import p13 from "../../../../assets/products/p13.jpg";
+import p13_hover from "../../../../assets/products/p13_hover.jpg";
+import p15 from "../../../../assets/products/p15.jpg";
+import p15_hover from "../../../../assets/products/p15_hover.jpg";
+import p10 from "../../../../assets/products/p10.jpg";
+import p10_hover from "../../../../assets/products/p10_hover.jpg";
+import p11 from "../../../../assets/products/p11.jpg";
+import p11_hover from "../../../../assets/products/p11_hover.jpg";
+import p08 from "../../../../assets/products/p8.jpg";
+import p08_hover from "../../../../assets/products/p8_hover.jpg";
+import p07 from "../../../../assets/products/p7.jpg";
+import p07_hover from "../../../../assets/products/p7_hover.jpg";
 import { FaHeart, FaShoppingCart, FaSignInAlt } from "react-icons/fa";
-import Singleprod from '../index';
+import Singleprod from '../products/Singleprod';
 
 
 const data = [

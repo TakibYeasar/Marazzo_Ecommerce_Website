@@ -1,15 +1,15 @@
 import React from 'react';
 import { FaAngleLeft, FaAngleRight, FaSearch } from "react-icons/fa";
 import Image from 'next/image';
-import blog_big01 from "../../../assets/blog-post/blog_big_01.jpg";
-import blog_big02 from "../../../assets/blog-post/blog_big_02.jpg";
-import blog_big03 from "../../../assets/blog-post/blog_big_03.jpg";
-import lhs_banner from "../../../assets/banners/LHS-banner.jpg";
-import brand1 from "../../../assets/brands/brand1.png";
-import brand2 from "../../../assets/brands/brand2.png";
-import brand3 from "../../../assets/brands/brand3.png";
-import brand4 from "../../../assets/brands/brand4.png";
-import brand5 from "../../../assets/brands/brand5.png";
+import blog_big01 from "../../../../assets/blog-post/blog_big_01.jpg";
+import blog_big02 from "../../../../assets/blog-post/blog_big_02.jpg";
+import blog_big03 from "../../../../assets/blog-post/blog_big_03.jpg";
+import lhs_banner from "../../../../assets/banners/LHS-banner.jpg";
+import brand1 from "../../../../assets/brands/brand1.png";
+import brand2 from "../../../../assets/brands/brand2.png";
+import brand3 from "../../../../assets/brands/brand3.png";
+import brand4 from "../../../../assets/brands/brand4.png";
+import brand5 from "../../../../assets/brands/brand5.png";
 
 const Allblogs = () => {
   return (

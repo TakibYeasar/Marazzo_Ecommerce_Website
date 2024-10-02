@@ -12,6 +12,7 @@ export { default as Featuredproduct } from "./products/Featuredproduct";
 export { default as Newproducts } from "./products/Newproducts";
 export { default as Rating } from "./products/Rating";
 export { default as Singleprod } from "./products/Singleprod";
+export { default as Producttags } from "./products/Producttags";
 export { default as Specialoffer } from "./products/Specialoffer";
 export { default as Specialdeals } from "./products/Specialdeals";
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import p1 from "../../../assets/products/p1.jpg";
-import p2 from "../../../assets/products/p2.jpg";
+import p1 from "../../../../../assets/products/p1.jpg";
+import p2 from "../../../../../assets/products/p2.jpg";
 import { FaStar, FaTimes } from "react-icons/fa";
 
 const data = [

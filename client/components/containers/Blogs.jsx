@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import blog_big_01 from "../../assets/blog-post/blog_big_01.jpg";
-import blog_big_02 from "../../assets/blog-post/blog_big_02.jpg";
-import blog_big_03 from "../../assets/blog-post/blog_big_03.jpg";
+import blog_big_01 from "../../../assets/blog-post/blog_big_01.jpg";
+import blog_big_02 from "../../../assets/blog-post/blog_big_02.jpg";
+import blog_big_03 from "../../../assets/blog-post/blog_big_03.jpg";
 
 const data = [
   {

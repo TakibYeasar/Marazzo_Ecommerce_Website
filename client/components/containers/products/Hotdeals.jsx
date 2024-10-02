@@ -1,11 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
-import p13 from "../../assets/products/p13.jpg";
-import p13_hover from "../../assets/products/p13_hover.jpg";
-import p14 from "../../assets/products/p15.jpg";
-import p14_hover from "../../assets/products/p15_hover.jpg";
-import p15 from "../../assets/products/p15.jpg";
-import p15_hover from "../../assets/products/p15_hover.jpg";
+import p13 from "../../../../assets/products/p13.jpg";
+import p13_hover from "../../../../assets/products/p13_hover.jpg";
+import p14 from "../../../../assets/products/p15.jpg";
+import p14_hover from "../../../../assets/products/p15_hover.jpg";
+import p15 from "../../../../assets/products/p15.jpg";
+import p15_hover from "../../../../assets/products/p15_hover.jpg";
 import { FaShoppingCart } from 'react-icons/fa';
 
 const data = [

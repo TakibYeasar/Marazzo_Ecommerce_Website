@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import home_banner1 from "../../assets/banners/home-banner1.jpg";
-import home_banner2 from "../../assets/banners/home-banner2.jpg";
-import home_banner3 from "../../assets/banners/home-banner3.jpg";
+import home_banner1 from "../../../../assets/banners/home-banner1.jpg";
+import home_banner2 from "../../../../assets/banners/home-banner2.jpg";
+import home_banner3 from "../../../../assets/banners/home-banner3.jpg";
 
 const Cards = () => {
   return (

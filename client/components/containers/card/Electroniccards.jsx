@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import home_banner from "../../assets/banners/home-banner.jpg";
-import home_banner4 from "../../assets/banners/home-banner4.jpg";
+import home_banner from "../../../../assets/banners/home-banner.jpg";
+import home_banner4 from "../../../../assets/banners/home-banner4.jpg";
 
 const Electroniccards = () => {
   return (
