@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import { FaShoppingBag, FaLaptop, FaAlignJustify, FaPaw, FaClock, FaHeartbeat, FaPaperPlane, FaFutbol, FaEnvira } from "react-icons/fa";
-import banner_side from "../../../../assets/banners/banner-side.png";
 
 const Categories = () => {
   return (
@@ -94,7 +93,7 @@ const Categories = () => {
                   <li className='categories-item'><a href="#">Headphones</a></li>
                 </ul>
               </div>
-              <div> <a href="#"><Image src={banner_side} alt='' /></a> </div>
+              <div> <a href="#"><Image src="/assets/banners/banner-side.png" alt='' /></a> </div>
             </li>
           </ul></li>
 
@@ -183,7 +182,7 @@ const Categories = () => {
                   <li className='categories-item'><a href="#">Headphones</a></li>
                 </ul>
               </div>
-              <div> <a href="#"><Image src={banner_side} alt='' /></a> </div>
+              <div> <a href="#"><Image src="/assets/banners/banner-side.png" alt='' /></a> </div>
             </li>
           </ul></li>
 
@@ -272,7 +271,7 @@ const Categories = () => {
                   <li className='categories-item'><a href="#">Headphones</a></li>
                 </ul>
               </div>
-              <div className=""> <a href="#"><Image src={banner_side} alt='' /></a> </div>
+              <div className=""> <a href="#"><Image src="/assets/banners/banner-side.png" alt='' /></a> </div>
             </li>
           </ul>
         </li>

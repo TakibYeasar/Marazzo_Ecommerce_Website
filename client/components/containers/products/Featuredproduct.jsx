@@ -1,22 +1,10 @@
 import React from 'react';
-import p13 from "../../../../assets/products/p13.jpg";
-import p13_hover from "../../../../assets/products/p13_hover.jpg";
-import p15 from "../../../../assets/products/p15.jpg";
-import p15_hover from "../../../../assets/products/p15_hover.jpg";
-import p10 from "../../../../assets/products/p10.jpg";
-import p10_hover from "../../../../assets/products/p10_hover.jpg";
-import p11 from "../../../../assets/products/p11.jpg";
-import p11_hover from "../../../../assets/products/p11_hover.jpg";
-import p08 from "../../../../assets/products/p8.jpg";
-import p08_hover from "../../../../assets/products/p8_hover.jpg";
-import p07 from "../../../../assets/products/p7.jpg";
-import p07_hover from "../../../../assets/products/p7_hover.jpg";
 import Singleprod from './Singleprod';
 
 const data = [
   {
-    image: p13,
-    hover_image: p13_hover,
+    image: "/assets/products/p13.jpg",
+    hover_image: "/assets/products/p13_hover.jpg",
     tag: "hot",
     name: "Floral Print Buttoned",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nemo voluptatibus reiciendis, autem, veritatis veniam neque nostrum, alias nam optio rerum aliquid. Perferendis accusantium minus quod ab veritatis adipisci tenetur.",
@@ -24,8 +12,8 @@ const data = [
     discount_price: "$800",
   },
   {
-    image: p15,
-    hover_image: p15_hover,
+    image: "/assets/products/p15.jpg",
+    hover_image: "/assets/products/p15_hover.jpg",
     tag: "new",
     name: "Floral Print Buttoned",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nemo voluptatibus reiciendis, autem, veritatis veniam neque nostrum, alias nam optio rerum aliquid. Perferendis accusantium minus quod ab veritatis adipisci tenetur.",
@@ -33,8 +21,8 @@ const data = [
     discount_price: "$800",
   },
   {
-    image: p10,
-    hover_image: p10_hover,
+    image: "/assets/products/p10.jpg",
+    hover_image: "/assets/products/p10_hover.jpg",
     tag: "sale",
     name: "Floral Print Buttoned",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nemo voluptatibus reiciendis, autem, veritatis veniam neque nostrum, alias nam optio rerum aliquid. Perferendis accusantium minus quod ab veritatis adipisci tenetur.",
@@ -42,8 +30,8 @@ const data = [
     discount_price: "$800",
   },
   {
-    image: p11,
-    hover_image: p11_hover,
+    image: "/assets/products/p11.jpg",
+    hover_image: "/assets/products/p11_hover.jpg",
     tag: "hot",
     name: "Floral Print Buttoned",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nemo voluptatibus reiciendis, autem, veritatis veniam neque nostrum, alias nam optio rerum aliquid. Perferendis accusantium minus quod ab veritatis adipisci tenetur.",
@@ -51,8 +39,8 @@ const data = [
     discount_price: "$800",
   },
   {
-    image: p08,
-    hover_image: p08_hover,
+    image: "/assets/products/p08.jpg",
+    hover_image: "/assets/products/p08_hover.jpg",
     tag: "new",
     name: "Floral Print Buttoned",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nemo voluptatibus reiciendis, autem, veritatis veniam neque nostrum, alias nam optio rerum aliquid. Perferendis accusantium minus quod ab veritatis adipisci tenetur.",
@@ -60,8 +48,8 @@ const data = [
     discount_price: "$800",
   },
   {
-    image: p07,
-    hover_image: p07_hover,
+    image: "/assets/products/p07.jpg",
+    hover_image: "/assets/products/p07_hover.jpg",
     tag: "sale",
     name: "Floral Print Buttoned",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nemo voluptatibus reiciendis, autem, veritatis veniam neque nostrum, alias nam optio rerum aliquid. Perferendis accusantium minus quod ab veritatis adipisci tenetur.",

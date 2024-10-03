@@ -1,24 +1,21 @@
 import React from 'react';
 import Image from 'next/image';
-import blog_big_01 from "../../../assets/blog-post/blog_big_01.jpg";
-import blog_big_02 from "../../../assets/blog-post/blog_big_02.jpg";
-import blog_big_03 from "../../../assets/blog-post/blog_big_03.jpg";
 
 const data = [
   {
-    image: blog_big_01,
+    image: "/assets/blog-post/blog_big_01.jpg",
     name: "Voluptatem accusantium doloremque laudantium",
     info: "By Jone Doe | 21 March 2016 ",
     text: "Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
   },
   {
-    image: blog_big_02,
+    image: "/assets/blog-post/blog_big_02.jpg",
     name: "Dolorem eum fugiat quo voluptas nulla pariatur",
     info: "By Saraha Smith | 21 March 2016 ",
     text: "Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
   },
   {
-    image: blog_big_03,
+    image: "/assets/blog-post/blog_big_03.jpg",
     name: "Voluptatem accusantium doloremque laudantium",
     info: "By Jone Doe | 21 March 2016 ",
     text: "Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",

@@ -1,8 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import logo from "../../assets/logo.png";
 import { FaSearch, FaShoppingCart, FaTrash } from "react-icons/fa";
-import p4 from "../../assets/products/p4.jpg";
 
 const Header = () => {
   return (
@@ -40,7 +38,7 @@ const Header = () => {
 
         <div className="grid grid-flow-col pt-8 pb-8 items-center justify-between">
           <div className="lg:col-span-3 sm:col-span-3">
-            <div className="logo"> <a href="/"> <Image src={logo} alt='' /> </a> </div>
+            <div className="logo"> <a href="/"> <Image src="/assets/logo.png" alt='' width={200} height={200} /> </a> </div>
           </div>
 
           <form className="lg:col-span-6 md:col-span-6 bg-bg-color p-4 rounded-full flex">
@@ -79,7 +77,7 @@ const Header = () => {
                 <div>
                   <div className="grid">
                     <div className="lg:col-span-4">
-                      <div> <a href="detail.html"><Image src={p4} alt='' /></a> </div>
+                      <div> <a href="detail.html"><Image src={/assets/products/p4.jpg} alt='' /></a> </div>
                     </div>
                     <div className="lg:col-span-7">
                       <h3><a href="index8a95.html?page-detail">Simple Product</a></h3>
